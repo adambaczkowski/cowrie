@@ -474,7 +474,7 @@ ssh_version = OpenSSH_7.9p1, OpenSSL 1.1.1a  20 Nov 2018
 # SSH Specific Options
 # ============================================================================
 [ssh]
-
+listen_endpoints = systemd:domain=INET6:index=0
 # Enable SSH support
 # (default: true)
 enabled = true
